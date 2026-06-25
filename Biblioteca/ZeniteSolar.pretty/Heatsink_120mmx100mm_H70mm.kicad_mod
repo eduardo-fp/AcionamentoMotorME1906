@@ -1,0 +1,201 @@
+(footprint "Heatsink_120mmx100mm_H70mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35")
+	(tags "heatsink")
+	(property "Reference" "REF**"
+		(at -8.54 -9.42 0)
+		(layer "F.SilkS")
+		(uuid "6ad19233-8548-4ed8-ab1d-62c5b8fa2f50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_120mmx100mm_H70mm"
+		(at -8.54 8.08 0)
+		(layer "F.Fab")
+		(uuid "22699d8b-690d-4711-b558-4c90c9440b58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aca91bd-5df5-44b8-8681-93e3b453c8a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "451e2b0e-74f0-45ef-99c1-10b8f0db5e15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -50 -60)
+		(end -50 60)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b19bfcb-a8ba-4e44-bf28-dbb000e41966")
+	)
+	(fp_line
+		(start -50 -60)
+		(end 50 -60)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "febdcac9-de31-457a-8e96-9617fc7e4589")
+	)
+	(fp_line
+		(start -50 60)
+		(end 50 60)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27b3b4ad-696c-48ef-b60a-bfe79f34f59c")
+	)
+	(fp_line
+		(start 50 -60)
+		(end 50 60)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "034a43c1-1641-43a2-a043-3c48a23083f7")
+	)
+	(fp_line
+		(start -50 -60)
+		(end -50 60)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e34e0990-1444-43a3-ae8f-c15291a58299")
+	)
+	(fp_line
+		(start -50 60)
+		(end 50 60)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89f2b482-bc80-4e47-9171-120ceabf34a2")
+	)
+	(fp_line
+		(start -50 60)
+		(end 50 60)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db6e7112-a7c8-459f-b113-d868dd7f3bdf")
+	)
+	(fp_line
+		(start 50 -60)
+		(end 50 60)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76a96f81-0315-4d6d-82d2-2743bf0c68fe")
+	)
+	(fp_line
+		(start -50 -60)
+		(end -50 60)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ffeb031-03bc-4a36-bdcc-a6af19c9767d")
+	)
+	(fp_line
+		(start -50 60)
+		(end 50 60)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79bc46ac-ba50-4745-afb2-dc845339df2c")
+	)
+	(fp_line
+		(start -50 60)
+		(end 50 60)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9880cc0-5fa8-4c34-b3b5-8ef99c10b551")
+	)
+	(fp_line
+		(start 50 -60)
+		(end 50 60)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71e45480-5072-4ef9-a0d1-bc35c6c7262c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -8.54 -6.67 0)
+		(layer "F.Fab")
+		(uuid "da7e66e7-60db-40de-a228-ccd5cf12c835")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

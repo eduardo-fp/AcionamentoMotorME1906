@@ -506,310 +506,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NMOS N-MOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1628,6 +1324,461 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.3048 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ZeniteSolar:IXFN420N10T"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.334 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IXFN420N10T"
+				(at 11.43 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, gate/driver source/source/drain"
+				(at 4.064 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IXFN420N10T_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.175) (xy 2.54 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.175)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IXFN420N10T_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "DS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ZeniteSolar:MP1923GS-P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2304,7 +2455,19 @@
 		(uuid "01a10b05-7c43-49f7-a641-786c7cec5779")
 	)
 	(junction
-		(at 57.15 58.42)
+		(at 118.11 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e42f58-f249-476f-863f-2e70853fcd59")
+	)
+	(junction
+		(at 153.67 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dffc468-20b5-43db-bfb1-799e3caf35b8")
+	)
+	(junction
+		(at 66.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15fb58f8-f8d4-4f8f-918d-4659d4c3eb8b")
@@ -2326,6 +2489,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35bf9a83-92ec-4934-878c-497af7874769")
+	)
+	(junction
+		(at 153.67 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36fc2458-a530-400a-91a2-d0a814cc1d08")
 	)
 	(junction
 		(at 80.01 80.01)
@@ -2382,10 +2551,16 @@
 		(uuid "897a70ef-7c2f-40fa-a1a1-0901485dadb4")
 	)
 	(junction
-		(at 55.88 45.72)
+		(at 64.77 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98007582-daa2-475d-9d37-b6470ccb3b65")
+	)
+	(junction
+		(at 118.11 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a37e1611-f37a-4ebd-9270-a076d902f9c1")
 	)
 	(junction
 		(at 66.04 140.97)
@@ -2605,6 +2780,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 184.15) (xy 161.29 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1102bc71-2460-420b-83dd-3b2090621765")
+	)
+	(wire
+		(pts
 			(xy 257.81 83.82) (xy 257.81 85.09)
 		)
 		(stroke
@@ -2612,6 +2797,16 @@
 			(type default)
 		)
 		(uuid "11406a77-8c2e-4ded-b352-5771019f3218")
+	)
+	(wire
+		(pts
+			(xy 110.49 168.91) (xy 118.11 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f210ae-3b9a-4e84-8813-0724170413fa")
 	)
 	(wire
 		(pts
@@ -2705,6 +2900,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 166.37) (xy 161.29 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20776431-6b19-4c2f-a600-727ad72e59cb")
+	)
+	(wire
+		(pts
 			(xy 24.13 31.75) (xy 24.13 33.02)
 		)
 		(stroke
@@ -2755,6 +2960,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 166.37) (xy 110.49 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e32bad-1e9a-4b12-b914-d49eb1c4fe91")
+	)
+	(wire
+		(pts
 			(xy 135.89 187.96) (xy 135.89 190.5)
 		)
 		(stroke
@@ -2762,6 +2977,16 @@
 			(type default)
 		)
 		(uuid "25fa6a61-c155-41b6-a54d-511bdbf355a7")
+	)
+	(wire
+		(pts
+			(xy 153.67 187.96) (xy 161.29 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26157473-d204-463e-b42a-a482eccf6ceb")
 	)
 	(wire
 		(pts
@@ -2945,6 +3170,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 184.15) (xy 110.49 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4003e5c3-0749-49b1-81fa-7263df6f8a3f")
+	)
+	(wire
+		(pts
 			(xy 54.61 77.47) (xy 59.69 77.47)
 		)
 		(stroke
@@ -2962,6 +3197,16 @@
 			(type default)
 		)
 		(uuid "4144603e-bf19-4124-abae-f17778f5bab0")
+	)
+	(wire
+		(pts
+			(xy 161.29 170.18) (xy 153.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ecb84a-e863-4ffa-8c57-d0d997db2b8c")
 	)
 	(wire
 		(pts
@@ -3005,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 55.88) (xy 50.8 58.42)
+			(xy 59.69 55.88) (xy 59.69 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3015,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 57.15 59.69)
+			(xy 66.04 58.42) (xy 66.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 45.72) (xy 62.23 45.72)
+			(xy 64.77 45.72) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3085,7 +3330,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 55.88 45.72)
+			(xy 64.77 44.45) (xy 64.77 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 57.15 58.42)
+			(xy 59.69 58.42) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 58.42) (xy 62.23 55.88)
+			(xy 71.12 58.42) (xy 71.12 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 45.72) (xy 55.88 45.72)
+			(xy 59.69 45.72) (xy 64.77 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3535,6 +3780,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 170.18) (xy 153.67 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8752c653-0193-4eab-b615-0d277fb4da40")
+	)
+	(wire
+		(pts
 			(xy 57.15 33.02) (xy 57.15 34.29)
 		)
 		(stroke
@@ -3655,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 45.72) (xy 62.23 48.26)
+			(xy 71.12 45.72) (xy 71.12 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 58.42) (xy 62.23 58.42)
+			(xy 66.04 58.42) (xy 71.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4135,7 +4390,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 48.26) (xy 50.8 45.72)
+			(xy 59.69 48.26) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4365,13 +4620,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 168.91) (xy 153.67 173.99)
+			(xy 153.67 168.91) (xy 153.67 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f2d9e718-f455-4be7-87df-10b1995fe01b")
+	)
+	(wire
+		(pts
+			(xy 110.49 187.96) (xy 118.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49ceccc-d79e-44e6-ae91-5c3556cec853")
 	)
 	(wire
 		(pts
@@ -5319,7 +5584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03fe5538-ff3c-491b-b782-45ee455cb337")
-		(property "Reference" "C_DS4a"
+		(property "Reference" "C_DS4a1"
 			(at 210.82 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,7 +5606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 207.9752 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5383,7 +5648,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS4a")
+					(reference "C_DS4a1")
 					(unit 1)
 				)
 			)
@@ -5412,7 +5677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF 100V"
+		(property "Value" "220nF 100V"
 			(at 261.62 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5423,7 +5688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
 			(at 258.7752 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -5473,7 +5738,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 52.07 0)
+		(at 59.69 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5483,8 +5748,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "085160dd-14e9-4edb-9a96-06caef6b323a")
-		(property "Reference" "Cd1a"
-			(at 54.61 50.7999 0)
+		(property "Reference" "Cd1a1"
+			(at 63.5 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5495,7 +5760,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 54.61 53.3399 0)
+			(at 63.5 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5505,8 +5770,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 51.7652 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 60.6552 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +5782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 52.07 0)
+			(at 59.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,7 +5793,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 50.8 52.07 0)
+			(at 59.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5547,7 +5812,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Cd1a")
+					(reference "Cd1a1")
 					(unit 1)
 				)
 			)
@@ -5584,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c592f60-75d3-44ed-94c0-e11d9b790198")
-		(property "Reference" "C_DS2b"
+		(property "Reference" "C_DS2b1"
 			(at 191.77 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5666,7 +5931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 188.9252 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5708,7 +5973,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS2b")
+					(reference "C_DS2b1")
 					(unit 1)
 				)
 			)
@@ -5813,7 +6078,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "ES3B"
 			(at 93.98 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,7 +6088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 93.98 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5927,7 +6192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 159.7152 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6009,7 +6274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 248.92 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6100,7 +6365,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "ES3B"
 			(at 93.98 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +6375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 93.98 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6215,7 +6480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 63.5 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6265,7 +6530,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 52.07 0)
+		(at 71.12 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6275,8 +6540,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e257246-4a52-42f9-af6d-3a88689e0a3c")
-		(property "Reference" "Cd1b"
-			(at 66.04 50.7999 0)
+		(property "Reference" "Cd1b1"
+			(at 74.93 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6287,7 +6552,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 66.04 53.3399 0)
+			(at 74.93 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6297,8 +6562,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.1952 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 72.0852 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6309,7 +6574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 52.07 0)
+			(at 71.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6320,7 +6585,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 52.07 0)
+			(at 71.12 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +6604,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Cd1b")
+					(reference "Cd1b1")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 99.568 90)
 			(hide yes)
 			(show_name no)
@@ -6522,7 +6787,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 259.842 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6532,7 +6797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 256.032 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -6692,7 +6957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.2052 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +7036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 75.438 90)
 			(hide yes)
 			(show_name no)
@@ -6821,7 +7086,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 55.88 44.45 0)
+		(at 64.77 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6832,7 +7097,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a89bd7e-5a54-4e97-a0c2-96727f0cd7f7")
 		(property "Reference" "#PWR012"
-			(at 55.88 48.26 0)
+			(at 64.77 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +7108,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 55.88 39.37 0)
+			(at 64.77 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6853,7 +7118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 44.45 0)
+			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +7129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 44.45 0)
+			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6875,7 +7140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 55.88 44.45 0)
+			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7143,7 +7408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30dcdaf2-dd42-4c4d-a561-8fc60e8c164e")
-		(property "Reference" "C_DS2a"
+		(property "Reference" "C_DS2a1"
 			(at 173.99 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +7430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.1452 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7207,7 +7472,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS2a")
+					(reference "C_DS2a1")
 					(unit 1)
 				)
 			)
@@ -7292,91 +7557,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 156.21 181.61 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3cf794bb-b1b8-4621-87fa-16a147f67e8d")
-		(property "Reference" "Q4"
-			(at 149.86 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IXFN420N10T"
-			(at 149.86 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-discrete-mosfets-ixfn420n10t-datasheet?assetguid=62579591-1540-44e6-a432-38bdea106cee"
-			(at 156.21 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 156.21 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "03f739e4-2720-4506-a54d-c6fe7f7677d7")
-		)
-		(pin "G"
-			(uuid "4fe52ee7-640a-49d2-b254-76010dde64ba")
-		)
-		(pin "D"
-			(uuid "9abddc57-9491-4e47-918a-da4f78bc39ac")
-		)
-		(instances
-			(project "AcionamentoMotor50A"
-				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 39.37 132.08 0)
 		(unit 1)
@@ -7410,7 +7590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.3352 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7493,7 +7673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 134.62 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -7653,7 +7833,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7824,7 +8004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF 100V"
+		(property "Value" "220nF 100V"
 			(at 231.14 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7835,7 +8015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
 			(at 228.2952 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7914,7 +8094,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Value" "IXFN420N10T"
+		(property "Value" "MP1923"
 			(at 68.58 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,7 +8330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 57.15 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8228,7 +8408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57a903b8-a30d-49ce-aacf-bd491ddfbeea")
-		(property "Reference" "Cd2a"
+		(property "Reference" "Cd2a1"
 			(at 64.77 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,7 +8430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 61.9252 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8292,7 +8472,95 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Cd2a")
+					(reference "Cd2a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZeniteSolar:IXFN420N10T")
+		(at 115.57 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58cace43-0191-4b0e-83de-2f8217196827")
+		(property "Reference" "Q1"
+			(at 121.92 162.8266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXFN420N10T"
+			(at 121.92 165.3666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ZeniteSolar:SOT-227"
+			(at 115.57 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/driver source/source/drain"
+			(at 119.634 170.688 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c8b4fbc8-9113-4912-aad6-7d10a90ea875")
+		)
+		(pin "1"
+			(uuid "7af81f9d-91ac-4a38-b185-94964775c8d2")
+		)
+		(pin "2"
+			(uuid "2bf57547-c756-4132-85f0-5dc2ce083a9b")
+		)
+		(pin "4"
+			(uuid "b0f54c0f-8880-47a4-add4-5cf195c7ff38")
+		)
+		(instances
+			(project "AcionamentoMotor50A"
+				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8388,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f075c71-79e6-4bb0-b7ce-c12f6c3b7ca9")
-		(property "Reference" "Cd2b"
+		(property "Reference" "Cd2b1"
 			(at 76.2 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8410,7 +8678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 73.3552 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8452,92 +8720,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Cd2b")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 156.21 163.83 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "623b7e2b-e801-426d-893d-e13650125422")
-		(property "Reference" "Q3"
-			(at 149.86 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IXFN420N10T"
-			(at 149.86 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-discrete-mosfets-ixfn420n10t-datasheet?assetguid=62579591-1540-44e6-a432-38bdea106cee"
-			(at 156.21 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 156.21 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "2f757d5a-6fc4-4ed2-8ec8-963fdde6e9a9")
-		)
-		(pin "G"
-			(uuid "57b7a13d-7f23-43e0-8252-cee0ea1f2e03")
-		)
-		(pin "D"
-			(uuid "55457c6f-4892-43ff-80a6-e8a7d3d25a6e")
-		)
-		(instances
-			(project "AcionamentoMotor50A"
-				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Q3")
+					(reference "Cd2b1")
 					(unit 1)
 				)
 			)
@@ -8555,7 +8738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "628fd033-d338-43fc-9399-3995446a232c")
-		(property "Reference" "C_DS1a"
+		(property "Reference" "C_DS1a1"
 			(at 173.99 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +8760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.1452 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8619,7 +8802,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS1a")
+					(reference "C_DS1a1")
 					(unit 1)
 				)
 			)
@@ -8648,7 +8831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF 100V"
+		(property "Value" "220nF 100V"
 			(at 261.62 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8659,7 +8842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
 			(at 258.7752 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8741,7 +8924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 248.92 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8832,7 +9015,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 259.842 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8842,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 256.032 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -8901,7 +9084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f9ef197-5e29-46b7-b3fb-2fac7be3e635")
-		(property "Reference" "RSnb2b"
+		(property "Reference" "RSnb2b1"
 			(at 237.744 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +9094,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 235.712 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +9104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 231.902 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -8963,7 +9146,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "RSnb2b")
+					(reference "RSnb2b1")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 23.8252 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9219,7 +9402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c8c6af6-011b-42a9-9184-4a43484a94fb")
-		(property "Reference" "RSnb1a"
+		(property "Reference" "RSnb1a1"
 			(at 231.394 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9229,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 229.362 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9239,7 +9422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 225.552 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -9281,7 +9464,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "RSnb1a")
+					(reference "RSnb1a1")
 					(unit 1)
 				)
 			)
@@ -9297,7 +9480,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d83b5b6-6135-42dc-b1fa-a1071b5cfd91")
 		(property "Reference" "#PWR02"
 			(at 57.15 40.64 0)
@@ -9311,7 +9493,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 57.15 39.37 0)
+			(at 53.34 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9387,7 +9569,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MP1923"
 			(at 68.58 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9397,7 +9579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 57.15 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9474,7 +9656,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8380472c-6a09-4687-9a94-3ef987927ff7")
-		(property "Reference" "Rg4b"
+		(property "Reference" "Rg4b1"
 			(at 84.836 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9494,7 +9676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -9536,7 +9718,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Rg4b")
+					(reference "Rg4b1")
 					(unit 1)
 				)
 			)
@@ -9554,7 +9736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "843c44bc-b4dc-4ab0-9786-134cb1eaacb4")
-		(property "Reference" "C_DS1b"
+		(property "Reference" "C_DS1b1"
 			(at 191.77 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9576,7 +9758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 188.9252 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9618,7 +9800,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS1b")
+					(reference "C_DS1b1")
 					(unit 1)
 				)
 			)
@@ -9647,7 +9829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF 100V"
+		(property "Value" "220nF 100V"
 			(at 231.14 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9658,7 +9840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
 			(at 228.2952 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9740,7 +9922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 159.7152 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9789,6 +9971,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ZeniteSolar:IXFN420N10T")
+		(at 156.21 163.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e827f45-8d64-457d-bd5e-8caa46477e6c")
+		(property "Reference" "Q3"
+			(at 149.86 162.8266 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXFN420N10T"
+			(at 149.86 165.3666 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ZeniteSolar:SOT-227"
+			(at 156.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/driver source/source/drain"
+			(at 152.146 170.688 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0060c128-2335-4277-9f6c-44bfcf65fcc9")
+		)
+		(pin "1"
+			(uuid "80c69d1e-e01f-4089-83c1-9621b82c7a16")
+		)
+		(pin "2"
+			(uuid "75a270c9-0bb2-400d-9d25-26d457dde7f9")
+		)
+		(pin "4"
+			(uuid "131f91ee-6226-4674-b149-68d96505049b")
+		)
+		(instances
+			(project "AcionamentoMotor50A"
+				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 95.25 0)
 		(unit 1)
@@ -9821,7 +10091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.2052 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9890,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "ES3B"
 			(at 93.98 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9900,7 +10170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10389,7 +10659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aae585c7-6bcc-4981-9428-44aacb634f37")
-		(property "Reference" "C_DS3a"
+		(property "Reference" "C_DS3a1"
 			(at 210.82 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 207.9752 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10453,7 +10723,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS3a")
+					(reference "C_DS3a1")
 					(unit 1)
 				)
 			)
@@ -10627,7 +10897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15a0de0-c0e3-420b-90cd-8d0ed5d9bc3b")
-		(property "Reference" "C_DS3b"
+		(property "Reference" "C_DS3b1"
 			(at 228.6 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10649,7 +10919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 225.7552 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10961,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS3b")
+					(reference "C_DS3b1")
 					(unit 1)
 				)
 			)
@@ -10708,7 +10978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b660fb6f-1831-4445-b851-ee1b356fdcd0")
-		(property "Reference" "Rg1b"
+		(property "Reference" "Rg1b1"
 			(at 84.836 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10728,7 +10998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 69.088 90)
 			(hide yes)
 			(show_name no)
@@ -10770,7 +11040,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Rg1b")
+					(reference "Rg1b1")
 					(unit 1)
 				)
 			)
@@ -10855,91 +11125,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 115.57 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd923f69-7462-4822-9e78-493acbc568e7")
-		(property "Reference" "Q1"
-			(at 121.92 162.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IXFN420N10T"
-			(at 121.92 165.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-discrete-mosfets-ixfn420n10t-datasheet?assetguid=62579591-1540-44e6-a432-38bdea106cee"
-			(at 115.57 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 115.57 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "5a5bf39e-1a1e-4a20-b57c-683b066f1ab3")
-		)
-		(pin "G"
-			(uuid "99e82d37-bdb8-4447-a5db-f562d43e695c")
-		)
-		(pin "D"
-			(uuid "961528cd-2f6a-4b08-b087-f924c5d8a2e9")
-		)
-		(instances
-			(project "AcionamentoMotor50A"
-				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 234.95 92.71 0)
 		(unit 1)
@@ -10950,7 +11135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfad809b-2224-4308-be1f-f146ba774237")
-		(property "Reference" "RSnb1ab"
+		(property "Reference" "RSnb1ab1"
 			(at 239.014 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10960,7 +11145,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 236.982 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +11155,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 233.172 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -11012,7 +11197,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "RSnb1ab")
+					(reference "RSnb1ab1")
 					(unit 1)
 				)
 			)
@@ -11208,7 +11393,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 218.44 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11377,7 +11562,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 229.362 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +11572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 225.552 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -11446,7 +11631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd43ae4c-e962-4b4a-9b55-827e88b0f948")
-		(property "Reference" "Rg2b"
+		(property "Reference" "Rg2b1"
 			(at 84.836 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11466,7 +11651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 81.788 90)
 			(hide yes)
 			(show_name no)
@@ -11508,7 +11693,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Rg2b")
+					(reference "Rg2b1")
 					(unit 1)
 				)
 			)
@@ -11549,7 +11734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 30.48 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11609,7 +11794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d6d2b7-4d02-4def-a0a8-3f5d528970e4")
-		(property "Reference" "C_DS4b"
+		(property "Reference" "C_DS4b1"
 			(at 228.6 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,7 +11816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 225.7552 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11673,7 +11858,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "C_DS4b")
+					(reference "C_DS4b1")
 					(unit 1)
 				)
 			)
@@ -11681,7 +11866,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 57.15 59.69 0)
+		(at 66.04 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11692,7 +11877,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6202ba1-39cf-4519-b960-243d239b00fa")
 		(property "Reference" "#PWR013"
-			(at 57.15 66.04 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11703,7 +11888,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 57.15 64.77 0)
+			(at 66.04 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11713,7 +11898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11724,7 +11909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11735,7 +11920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 57.15 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11768,7 +11953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daeea2d9-e47f-40c0-b5a2-96191b6f4d88")
-		(property "Reference" "RSnb4b"
+		(property "Reference" "RSnb4b1"
 			(at 268.224 128.778 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11778,7 +11963,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 266.192 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11788,7 +11973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 262.382 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -11830,7 +12015,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "RSnb4b")
+					(reference "RSnb4b1")
 					(unit 1)
 				)
 			)
@@ -11857,7 +12042,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "ES3B"
 			(at 93.98 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11867,7 +12052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 93.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -12027,7 +12212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e409c374-2d46-4c30-8cd7-085590f981d7")
-		(property "Reference" "Rg3b"
+		(property "Reference" "Rg3b1"
 			(at 84.836 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,7 +12232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 85.09 105.918 90)
 			(hide yes)
 			(show_name no)
@@ -12089,7 +12274,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Rg3b")
+					(reference "Rg3b1")
 					(unit 1)
 				)
 			)
@@ -12106,7 +12291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7533f0b-394b-4c08-b1e1-92895ed02e5d")
-		(property "Reference" "RSnb3b"
+		(property "Reference" "RSnb3b1"
 			(at 268.224 91.948 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12116,7 +12301,7 @@
 				)
 			)
 		)
-		(property "Value" "3R"
+		(property "Value" "3K3 5W"
 			(at 266.192 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12126,7 +12311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm"
 			(at 262.382 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -12168,92 +12353,7 @@
 		(instances
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "RSnb3b")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 115.57 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec0fcd40-23c7-44e3-84d5-1c272f165fed")
-		(property "Reference" "Q2"
-			(at 121.92 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IXFN420N10T"
-			(at 121.92 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-discrete-mosfets-ixfn420n10t-datasheet?assetguid=62579591-1540-44e6-a432-38bdea106cee"
-			(at 115.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 115.57 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "5e041e65-cd5e-42e1-811c-378cb3a8cc8f")
-		)
-		(pin "G"
-			(uuid "63255eb4-77dd-4ada-9338-8ad4ca5b63e9")
-		)
-		(pin "D"
-			(uuid "af3ed220-234d-44a4-be43-10e49bb094ae")
-		)
-		(instances
-			(project "AcionamentoMotor50A"
-				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
-					(reference "Q2")
+					(reference "RSnb3b1")
 					(unit 1)
 				)
 			)
@@ -12332,6 +12432,258 @@
 			(project "AcionamentoMotor50A"
 				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZeniteSolar:IXFN420N10T")
+		(at 115.57 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15ffa94-2dd7-405d-a37b-00af26d38cfb")
+		(property "Reference" "Q2"
+			(at 121.92 180.6066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXFN420N10T"
+			(at 121.92 183.1466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ZeniteSolar:SOT-227"
+			(at 115.57 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/driver source/source/drain"
+			(at 119.634 188.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "93c7afd8-4b12-47a7-8e35-553dad357d89")
+		)
+		(pin "1"
+			(uuid "2efd30c1-0a12-443f-9c68-9db320db43b3")
+		)
+		(pin "2"
+			(uuid "f0a96746-e6dc-46b3-b0b5-d024d704f8ef")
+		)
+		(pin "4"
+			(uuid "87051145-34b4-4bcb-b09d-f8b66b706917")
+		)
+		(instances
+			(project "AcionamentoMotor50A"
+				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 119.38 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1de8f4f-34d4-4d30-9985-0b18d83add2e")
+		(property "Reference" "HS1"
+			(at 123.19 29.8449 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 123.19 32.3849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ZeniteSolar:Heatsink_120mmx100mm_H70mm"
+			(at 119.6848 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.6848 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 119.38 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "AcionamentoMotor50A"
+				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ZeniteSolar:IXFN420N10T")
+		(at 156.21 181.61 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5d061ce-3f8c-4589-8678-3f52d3a861a9")
+		(property "Reference" "Q4"
+			(at 149.86 180.6066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IXFN420N10T"
+			(at 149.86 183.1466 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ZeniteSolar:SOT-227"
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/driver source/source/drain"
+			(at 152.146 188.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "70ad2d0f-1aec-47fe-b7c2-a1e763336159")
+		)
+		(pin "1"
+			(uuid "8c2de349-bb99-4ab4-b2cc-3e771de0793b")
+		)
+		(pin "2"
+			(uuid "5ad9b1e7-a4ef-4047-8efb-58882292d7c3")
+		)
+		(pin "4"
+			(uuid "8d1d2314-8232-4447-b83b-aa72d4004f56")
+		)
+		(instances
+			(project "AcionamentoMotor50A"
+				(path "/b145dbd1-3039-470e-a340-e1336fd0da53"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
