@@ -1,0 +1,8 @@
+TempoMorto=300n        
+OnResistance=2.3m
+MosfetDiodeRes=2m
+MosfetDiodeVf=1.2
+Vbar=50
+Delay=1000m
+
+Duty=0.3
