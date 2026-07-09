@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Solver" version="1.4.0.9654"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="96">
+    <identity>
+      <id>c881a9ff-05ce-4d4b-a730-66d8723c2454</id>
+      <revision>2</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <mixedNumbers>false</mixedNumbers>
+      <roundingMode>0</roundingMode>
+      <approximateEqualAccuracy>3</approximateEqualAccuracy>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true" hideElementsHighlightings="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Core" version="1.74.9654.0" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.74.9654.0" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="TextRegion" version="1.74.9654.0" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="0" top="0" width="115" height="27" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Ciss</e>
+          <e type="operand">47</e>
+          <e type="operand" style="unit">nF</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="162" top="27" width="594" height="80" color="#000000" fontSize="12">
+      <text lang="cpp" fontFamily="Arial" fontSize="12">
+        <content>
+          <p>Região Negativa: O MOSFET está completamente cortado. Como a tensão entre o dreno e a fonte VDS não se altera nesta fase (permanece fixa na tensão do barramento), não ocorre o efeito Miller. Portanto, nesta faixa, a capacitância que o driver "enxerga" é apenas a capacitância estática de entrada linear Ciss</p>
+        </content>
+      </text>
+    </region>
+    <region left="0" top="36" width="124" height="27" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Vneg</e>
+          <e type="operand">5</e>
+          <e type="operand" style="unit">volt</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="0" top="72" width="124" height="27" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Qgon</e>
+          <e type="operand">670</e>
+          <e type="operand" style="unit">nC</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="216" top="108" width="290" height="39" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Qneg</e>
+          <e type="operand">Ciss</e>
+          <e type="operand">Vneg</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">2.35</e>
+          <e type="operand">10</e>
+          <e type="operand">7</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">C</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="0" top="117" width="95" height="27" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Vgs</e>
+          <e type="operand">20</e>
+          <e type="operand" style="unit">V</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="153" top="153" width="590" height="152" color="#000000" fontSize="12">
+      <text lang="cpp" fontFamily="Arial" fontSize="12">
+        <content>
+          <p>Região positiva: À medida que a tensão se eleva de0 a +15, a tensão entre o Vds sofre uma queda abrupta até o nível de condução, disparando o efeito Miller. Durante essa transição, a tensão Vgs estabiliza-se temporariamente (o chamado platô de Miller) porque toda a corrente injetada pelo driver é consumida para carregar a capacitância de transferência reversa Crss. Somente após a queda total de Vds é que o canal se estabiliza e o gate volta a se comportar de forma linear até atingir o valor final de +15V. Portanto, nesta faixa, a capacitância que o driver "enxerga" é uma capacitância dinâmica equivalente.</p>
+        </content>
+      </text>
+    </region>
+    <region left="162" top="306" width="362" height="40" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Qpos</e>
+          <e type="operand">Qgon</e>
+          <e type="operand">Ciss</e>
+          <e type="operand">Vneg</e>
+          <e type="operator" args="2">*</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">9.05</e>
+          <e type="operand">10</e>
+          <e type="operand">7</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">C</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="162" top="360" width="319" height="39" color="#000000" fontSize="12">
+      <math>
+        <input>
+          <e type="operand">Qtotal</e>
+          <e type="operand">Qneg</e>
+          <e type="operand">Qpos</e>
+          <e type="operator" args="2">+</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.14</e>
+          <e type="operand">10</e>
+          <e type="operand">6</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">C</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+    <region left="162" top="432" width="273" height="49" color="#000000" fontSize="12">
+      <math decimalPlaces="3" significantDigitsMode="true" exponentialThreshold="3" trailingZeros="true">
+        <input>
+          <e type="operand">Cgate</e>
+          <e type="operand">Qtotal</e>
+          <e type="operand">Vgs</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">5.70</e>
+          <e type="operand">10</e>
+          <e type="operand">8</e>
+          <e type="operator" args="1">-</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand" style="unit">F</e>
+          <e type="operator" args="2">*</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>

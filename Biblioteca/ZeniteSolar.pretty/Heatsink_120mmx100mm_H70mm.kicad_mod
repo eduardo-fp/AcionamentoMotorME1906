@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -8.54 -9.42 0)
 		(layer "F.SilkS")
-		(uuid "6ad19233-8548-4ed8-ab1d-62c5b8fa2f50")
+		(uuid "d1c30507-a309-4755-bed7-b7c8659b120a")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Heatsink_120mmx100mm_H70mm"
 		(at -8.54 8.08 0)
 		(layer "F.Fab")
-		(uuid "22699d8b-690d-4711-b558-4c90c9440b58")
+		(uuid "c5841b15-6915-476f-af56-8d4200dcba4b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8aca91bd-5df5-44b8-8681-93e3b453c8a6")
+		(uuid "7ec1517b-d5c8-4b85-9d0b-a2dbff1c9637")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "451e2b0e-74f0-45ef-99c1-10b8f0db5e15")
+		(uuid "ccc710a5-ceb7-4c69-81aa-fc6079da692b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5b19bfcb-a8ba-4e44-bf28-dbb000e41966")
+		(uuid "9206dc7f-2d4c-4a00-9b39-4d9af06baef8")
 	)
 	(fp_line
 		(start -50 -60)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "febdcac9-de31-457a-8e96-9617fc7e4589")
+		(uuid "e8d0d5aa-b67c-4ace-9f89-572b3eb851ff")
 	)
 	(fp_line
 		(start -50 60)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "27b3b4ad-696c-48ef-b60a-bfe79f34f59c")
+		(uuid "4c749ad9-7a51-4ded-9f21-b514d0b003da")
 	)
 	(fp_line
 		(start 50 -60)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "034a43c1-1641-43a2-a043-3c48a23083f7")
+		(uuid "fe91ab2e-67f9-420a-9732-e87c37513538")
 	)
 	(fp_line
 		(start -50 -60)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e34e0990-1444-43a3-ae8f-c15291a58299")
+		(uuid "e1c71cb1-428b-4563-b812-d63396f6bb8e")
 	)
 	(fp_line
 		(start -50 60)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "89f2b482-bc80-4e47-9171-120ceabf34a2")
+		(uuid "37994a67-14a9-46d5-9b41-b71531c4576f")
 	)
 	(fp_line
 		(start -50 60)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "db6e7112-a7c8-459f-b113-d868dd7f3bdf")
+		(uuid "72638cc4-03dd-450a-a46d-73bfb2f66581")
 	)
 	(fp_line
 		(start 50 -60)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "76a96f81-0315-4d6d-82d2-2743bf0c68fe")
+		(uuid "c8a13d08-4a67-4bd0-b1fe-161fb994df61")
 	)
 	(fp_line
 		(start -50 -60)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2ffeb031-03bc-4a36-bdcc-a6af19c9767d")
+		(uuid "ae0431fc-c1e2-4f22-b495-1e359a5d252d")
 	)
 	(fp_line
 		(start -50 60)
@@ -153,7 +153,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "79bc46ac-ba50-4745-afb2-dc845339df2c")
+		(uuid "4ec05cb9-72b7-400b-b692-a3a09d4c1836")
 	)
 	(fp_line
 		(start -50 60)
@@ -163,7 +163,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c9880cc0-5fa8-4c34-b3b5-8ef99c10b551")
+		(uuid "98ab834d-7582-4435-8558-19315ed9b869")
 	)
 	(fp_line
 		(start 50 -60)
@@ -173,12 +173,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "71e45480-5072-4ef9-a0d1-bc35c6c7262c")
+		(uuid "c7915a08-1a12-464f-a6be-a3673dfbc104")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -8.54 -6.67 0)
 		(layer "F.Fab")
-		(uuid "da7e66e7-60db-40de-a228-ccd5cf12c835")
+		(uuid "b4640580-d248-4273-9c3c-d4c2f057c759")
 		(effects
 			(font
 				(size 1 1)
@@ -187,15 +187,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35.step"
+	(model "D:/IFSC/Projeto de placa de circuito Impresso/Projeto Final/AcionamentoMotorME1906/Biblioteca/DissipadorBarco.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -50 0 -20)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
