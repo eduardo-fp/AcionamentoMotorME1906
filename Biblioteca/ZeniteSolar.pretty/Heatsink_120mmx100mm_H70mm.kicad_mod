@@ -8,7 +8,8 @@
 	(property "Reference" "REF**"
 		(at -8.54 -9.42 0)
 		(layer "F.SilkS")
-		(uuid "d1c30507-a309-4755-bed7-b7c8659b120a")
+		(hide yes)
+		(uuid "ba0794d2-10ed-4fd1-9c79-4f0f452bf6f5")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +20,8 @@
 	(property "Value" "Heatsink_120mmx100mm_H70mm"
 		(at -8.54 8.08 0)
 		(layer "F.Fab")
-		(uuid "c5841b15-6915-476f-af56-8d4200dcba4b")
+		(hide yes)
+		(uuid "d34277d2-798c-4010-82a1-49c7c6dfc3b9")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ec1517b-d5c8-4b85-9d0b-a2dbff1c9637")
+		(uuid "f714a63b-18c7-4720-a301-7072e2cf6271")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ccc710a5-ceb7-4c69-81aa-fc6079da692b")
+		(uuid "8cd12b01-8873-410f-9c44-63f8f9ffae4a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,136 +57,16 @@
 	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
+	(fp_rect
 		(start -50 -60)
-		(end -50 60)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9206dc7f-2d4c-4a00-9b39-4d9af06baef8")
-	)
-	(fp_line
-		(start -50 -60)
-		(end 50 -60)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e8d0d5aa-b67c-4ace-9f89-572b3eb851ff")
-	)
-	(fp_line
-		(start -50 60)
-		(end 50 60)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4c749ad9-7a51-4ded-9f21-b514d0b003da")
-	)
-	(fp_line
-		(start 50 -60)
-		(end 50 60)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "fe91ab2e-67f9-420a-9732-e87c37513538")
-	)
-	(fp_line
-		(start -50 -60)
-		(end -50 60)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "e1c71cb1-428b-4563-b812-d63396f6bb8e")
-	)
-	(fp_line
-		(start -50 60)
-		(end 50 60)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "37994a67-14a9-46d5-9b41-b71531c4576f")
-	)
-	(fp_line
-		(start -50 60)
-		(end 50 60)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "72638cc4-03dd-450a-a46d-73bfb2f66581")
-	)
-	(fp_line
-		(start 50 -60)
-		(end 50 60)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "c8a13d08-4a67-4bd0-b1fe-161fb994df61")
-	)
-	(fp_line
-		(start -50 -60)
-		(end -50 60)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "ae0431fc-c1e2-4f22-b495-1e359a5d252d")
-	)
-	(fp_line
-		(start -50 60)
 		(end 50 60)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(layer "F.Fab")
-		(uuid "4ec05cb9-72b7-400b-b692-a3a09d4c1836")
-	)
-	(fp_line
-		(start -50 60)
-		(end 50 60)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "98ab834d-7582-4435-8558-19315ed9b869")
-	)
-	(fp_line
-		(start 50 -60)
-		(end 50 60)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "c7915a08-1a12-464f-a6be-a3673dfbc104")
-	)
-	(fp_text user "${REFERENCE}"
-		(at -8.54 -6.67 0)
-		(layer "F.Fab")
-		(uuid "b4640580-d248-4273-9c3c-d4c2f057c759")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "58fcfc68-fc45-4cba-88dc-a6102f0cbe0f")
 	)
 	(embedded_fonts no)
 	(model "D:/IFSC/Projeto de placa de circuito Impresso/Projeto Final/AcionamentoMotorME1906/Biblioteca/DissipadorBarco.step"
